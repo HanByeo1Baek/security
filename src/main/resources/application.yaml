@@ -26,3 +26,6 @@ springdoc:
     tags-sorter: alpha
   cache:
     disabled: true
+
+server.port: 8080
+server.address: 0.0.0.0

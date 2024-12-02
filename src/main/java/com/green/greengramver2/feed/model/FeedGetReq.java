@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.BindParam;
 
 @Getter
 @Slf4j
-@ToString(callSuper = true)
+@ToString(callSuper = true) // 부모가 갖고 있는 값도 찍을 수 있게 해주는 것
 public class FeedGetReq extends Paging {
     @Schema(title = "로그인 유저 PK", name = "signed_user_id", example = "1", requiredMode = Schema.RequiredMode.REQUIRED)
     private long signedUserId;

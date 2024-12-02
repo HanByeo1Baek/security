@@ -24,6 +24,5 @@ public class FeedLikeController {
                 .resultMessage(result == 0 ? "좋아요 취소" : "좋아요 등록")
                 .resultData(result)
                 .build();
-
     }
 }

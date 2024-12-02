@@ -1,6 +1,10 @@
 package com.green.greengramver2.feed;
 
 import com.green.greengramver2.common.MyFileUtils;
+import com.green.greengramver2.feed.comment.FeedCommentMapper;
+import com.green.greengramver2.feed.comment.model.FeedCommentDto;
+import com.green.greengramver2.feed.comment.model.FeedCommentGetReq;
+import com.green.greengramver2.feed.comment.model.FeedCommentGetRes;
 import com.green.greengramver2.feed.model.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -15,6 +19,7 @@ import java.util.List;
 public class FeedService {
     private final FeedMapper feedMapper;
     private final FeedPicsMapper feedPicsMapper;
+    private final FeedCommentMapper feedCommentMapper;
     private final MyFileUtils myFileUtils;
 
     public FeedPostRes postFeed(List<MultipartFile> pics, FeedPostReq p){
@@ -54,11 +59,25 @@ public class FeedService {
     }
 
     public List<FeedGetRes> getFeedList(FeedGetReq p){
+        // N + 1 이슈 발생
         List<FeedGetRes> list = feedMapper.selFeedList(p);
 
         for(FeedGetRes res : list){
-            List<String> picList = feedPicsMapper.selFeedPics(res.getFeedId());
-            res.setPics(picList);
+            // 피드 당 사진 리스트
+            res.setPics(feedPicsMapper.selFeedPics(res.getFeedId()));
+            // 피드당 4개
+            FeedCommentGetReq commentGetReq = new FeedCommentGetReq();
+            commentGetReq.setPage(1);
+            commentGetReq.setFeedId(res.getFeedId());
+
+            List<FeedCommentDto> commentList = feedCommentMapper.selFeedCommentList(commentGetReq);
+            FeedCommentGetRes commentGetRes = new FeedCommentGetRes();
+            commentGetRes.setCommentList(commentList);
+            commentGetRes.setMoreComment(commentList.size() == 4); // 4개면 true, 4개 아니면 false
+            if(commentGetRes.isMoreComment()){
+                commentList.remove(commentList.size() - 1);
+            }
+            res.setComment(commentGetRes);
         }
         return list;
     }

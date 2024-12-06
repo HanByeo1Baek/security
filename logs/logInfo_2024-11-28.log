@@ -1,5 +1,5 @@
-[2024-11-28 12:34:26 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 696 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:34:26 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:34:26 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 696 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:34:26 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:34:26 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 12:34:26 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 12:34:27 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -8,16 +8,16 @@
 [2024-11-28 12:34:27 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:34:27 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:34:27 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 771 ms
-[2024-11-28 12:34:27 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:34:27 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:34:27 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:34:27 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:34:27 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:34:27 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.637 seconds (process running for 1.981)
+[2024-11-28 12:34:27 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.637 seconds (process running for 1.981)
 [2024-11-28 12:34:35 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 12:34:35 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:34:35 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
-[2024-11-28 12:38:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11052 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:38:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:38:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11052 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:38:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:38:35 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 12:38:35 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 12:38:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -26,16 +26,16 @@
 [2024-11-28 12:38:36 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:38:36 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:38:36 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 754 ms
-[2024-11-28 12:38:36 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:38:36 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:38:37 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:38:37 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:38:37 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:38:37 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.609 seconds (process running for 1.996)
+[2024-11-28 12:38:37 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.609 seconds (process running for 1.996)
 [2024-11-28 12:38:44 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 12:38:44 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:38:44 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
-[2024-11-28 12:39:19 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:39:19 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:39:19 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:39:19 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:39:19 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 12:39:19 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 12:39:20 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -44,12 +44,12 @@
 [2024-11-28 12:39:20 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:39:20 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:39:20 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 783 ms
-[2024-11-28 12:39:20 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:39:20 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:39:20 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 12:39:20 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:39:20 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:39:20 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:39:20 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.644 seconds (process running for 1.983)
+[2024-11-28 12:39:20 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.644 seconds (process running for 1.983)
 [2024-11-28 12:39:26 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 12:39:26 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:39:26 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -186,40 +186,40 @@
 [2024-11-28 12:41:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 12:41:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 12:41:13 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:41:13 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 12:41:13 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:41:13 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 12:41:13 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:41:13 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:41:13 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 194 ms
-[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:41:13 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 12:41:13 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:41:13 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:41:13 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.337 seconds (process running for 114.891)
+[2024-11-28 12:41:13 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.337 seconds (process running for 114.891)
 [2024-11-28 12:41:13 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 12:42:00 INFO File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 22 class path changes (0 additions, 0 deletions, 22 modifications)
 [2024-11-28 12:42:00 INFO Thread-7] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 12:42:00 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:42:00 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:42:00 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:42:00 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:42:00 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 12:42:00 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:42:00 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 12:42:00 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:42:00 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:42:00 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 173 ms
-[2024-11-28 12:42:00 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:42:00 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:42:01 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 12:42:01 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:42:01 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:42:01 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:42:01 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.299 seconds (process running for 162.457)
+[2024-11-28 12:42:01 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.299 seconds (process running for 162.457)
 [2024-11-28 12:42:01 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
-[2024-11-28 12:50:48 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11124 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:50:48 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:50:48 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11124 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:50:48 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:50:48 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 12:50:48 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 12:50:48 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -228,12 +228,12 @@
 [2024-11-28 12:50:49 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:50:49 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:50:49 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 765 ms
-[2024-11-28 12:50:49 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:50:49 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:50:49 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 12:50:49 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:50:49 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:50:49 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:50:49 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.607 seconds (process running for 1.964)
+[2024-11-28 12:50:49 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.607 seconds (process running for 1.964)
 [2024-11-28 12:50:56 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 12:50:56 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:50:56 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -241,8 +241,8 @@
 java.lang.NullPointerException: Cannot invoke "String.charAt(int)" because "salt" is null
 	at org.mindrot.jbcrypt.BCrypt.hashpw(BCrypt.java:658)
 	at org.mindrot.jbcrypt.BCrypt.checkpw(BCrypt.java:764)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:47)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:47)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -293,8 +293,8 @@ java.lang.NullPointerException: Cannot invoke "String.charAt(int)" because "salt
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-[2024-11-28 12:51:40 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3228 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:51:40 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:51:40 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3228 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:51:40 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:51:40 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 12:51:40 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 12:51:41 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -303,12 +303,12 @@ java.lang.NullPointerException: Cannot invoke "String.charAt(int)" because "salt
 [2024-11-28 12:51:41 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:51:41 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:51:41 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 767 ms
-[2024-11-28 12:51:41 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:51:41 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:51:41 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 12:51:42 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:51:42 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:51:42 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:51:42 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.637 seconds (process running for 1.98)
+[2024-11-28 12:51:42 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.637 seconds (process running for 1.98)
 [2024-11-28 12:51:43 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 12:51:43 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:51:43 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -444,8 +444,8 @@ java.lang.NullPointerException: Cannot invoke "String.charAt(int)" because "salt
 [2024-11-28 12:58:20 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 12:58:20 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 12:58:20 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 12:58:22 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11772 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 12:58:22 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 12:58:22 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11772 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 12:58:22 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:58:22 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 12:58:22 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 12:58:23 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -454,12 +454,12 @@ java.lang.NullPointerException: Cannot invoke "String.charAt(int)" because "salt
 [2024-11-28 12:58:23 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 12:58:23 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 12:58:23 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 753 ms
-[2024-11-28 12:58:23 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 12:58:23 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 12:58:23 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 12:58:23 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 12:58:23 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:58:23 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:58:23 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.592 seconds (process running for 1.948)
+[2024-11-28 12:58:23 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.592 seconds (process running for 1.948)
 [2024-11-28 12:58:31 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 12:58:31 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:58:31 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -604,8 +604,8 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-[2024-11-28 13:08:43 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11384 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 13:08:43 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 13:08:43 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11384 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 13:08:43 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 13:08:43 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 13:08:43 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 13:08:44 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -614,12 +614,12 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 13:08:44 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 13:08:44 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 13:08:44 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 778 ms
-[2024-11-28 13:08:44 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 13:08:44 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 13:08:44 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 13:08:44 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 13:08:44 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 13:08:44 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 13:08:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.619 seconds (process running for 1.975)
+[2024-11-28 13:08:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.619 seconds (process running for 1.975)
 [2024-11-28 13:10:40 INFO http-nio-8080-exec-1] [org.apache.coyote.http11.Http11Processor] Error parsing HTTP request header
  Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
 java.lang.IllegalArgumentException: Invalid character found in the request target [/api/user/sign-up?p=[uid=rladnwns,upw=1234,nickName=%EA%B9%80%EC%9A%B0%EC%A4%80]&pic ]. The valid characters are defined in RFC 7230 and RFC 3986
@@ -1013,23 +1013,23 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:24:07 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 30. Connection closed. {executed in 0ms} 
 [2024-11-28 14:24:07 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 30. Connection.close() returned 
 [2024-11-28 14:24:07 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11384 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11384 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:24:08 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:24:08 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:24:08 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:24:08 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:24:08 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:24:08 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 201 ms
-[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:24:08 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:24:08 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:24:08 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:24:08 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.368 seconds (process running for 4525.703)
+[2024-11-28 14:24:08 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.368 seconds (process running for 4525.703)
 [2024-11-28 14:24:08 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
-[2024-11-28 14:29:42 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 5540 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:29:42 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:29:42 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 5540 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:29:42 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:29:42 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:29:42 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:29:42 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -1038,12 +1038,12 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:29:42 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:29:42 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:29:42 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 766 ms
-[2024-11-28 14:29:42 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:29:42 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:29:43 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:29:43 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:29:43 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:29:43 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:29:43 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.607 seconds (process running for 1.957)
+[2024-11-28 14:29:43 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.607 seconds (process running for 1.957)
 [2024-11-28 14:29:45 INFO http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:29:45 INFO http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:29:45 INFO http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -1181,23 +1181,23 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:30:52 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:30:52 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:30:52 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 5540 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 5540 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:30:52 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:30:52 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:30:52 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:30:52 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:30:52 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:30:52 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 182 ms
-[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:30:52 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:30:52 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:30:52 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:30:52 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.322 seconds (process running for 71.283)
+[2024-11-28 14:30:52 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.322 seconds (process running for 71.283)
 [2024-11-28 14:30:52 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
-[2024-11-28 14:31:01 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:31:01 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:31:01 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:31:01 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:31:01 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:31:01 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:31:02 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -1206,12 +1206,12 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:31:02 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:31:02 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:31:02 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 771 ms
-[2024-11-28 14:31:02 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:31:02 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:31:02 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:31:02 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:31:02 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:31:02 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:31:02 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.63 seconds (process running for 1.97)
+[2024-11-28 14:31:02 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.63 seconds (process running for 1.97)
 [2024-11-28 14:31:05 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:31:05 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:31:05 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -1348,20 +1348,20 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:33:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:33:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:33:13 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:33:13 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:33:13 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:33:13 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 308 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:33:13 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:33:14 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:33:14 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:33:14 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:33:14 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:33:14 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:33:14 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 180 ms
-[2024-11-28 14:33:14 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:33:14 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:33:14 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:33:14 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:33:14 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:33:14 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:33:14 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.32 seconds (process running for 133.165)
+[2024-11-28 14:33:14 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.32 seconds (process running for 133.165)
 [2024-11-28 14:33:14 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 14:33:15 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:33:15 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
@@ -1558,8 +1558,8 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:34:23 INFO HikariPool-2 connection closer] [log4jdbc.log4j2] 20. Connection closed. {executed in 0ms} 
 [2024-11-28 14:34:23 INFO HikariPool-2 connection closer] [log4jdbc.log4j2] 20. Connection.close() returned 
 [2024-11-28 14:34:23 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown completed.
-[2024-11-28 14:34:36 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3424 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:34:36 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:34:36 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3424 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:34:36 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:34:36 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:34:36 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:34:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -1568,12 +1568,12 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:34:36 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:34:36 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:34:36 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 776 ms
-[2024-11-28 14:34:36 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:34:36 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:34:37 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:34:37 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:34:37 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:34:37 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:34:37 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.634 seconds (process running for 1.977)
+[2024-11-28 14:34:37 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.634 seconds (process running for 1.977)
 [2024-11-28 14:34:40 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:34:40 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:34:40 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -1710,37 +1710,37 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:39:00 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:39:00 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:39:00 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3424 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3424 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:39:00 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:39:00 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:39:00 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:39:00 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:39:00 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:39:00 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 199 ms
-[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:39:00 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:39:00 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:39:00 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:39:00 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.333 seconds (process running for 265.347)
+[2024-11-28 14:39:00 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.333 seconds (process running for 265.347)
 [2024-11-28 14:39:00 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 14:39:43 INFO File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-11-28 14:39:43 INFO Thread-7] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3424 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3424 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:39:44 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:39:44 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:39:44 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:39:44 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:39:44 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:39:44 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 195 ms
-[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:39:44 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:39:44 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:39:44 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:39:44 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.337 seconds (process running for 308.902)
+[2024-11-28 14:39:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.337 seconds (process running for 308.902)
 [2024-11-28 14:39:44 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 14:42:21 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:42:21 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
@@ -1876,8 +1876,8 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:42:55 INFO HikariPool-2 connection closer] [log4jdbc.log4j2] 20. Connection closed. {executed in 0ms} 
 [2024-11-28 14:42:55 INFO HikariPool-2 connection closer] [log4jdbc.log4j2] 20. Connection.close() returned 
 [2024-11-28 14:42:55 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown completed.
-[2024-11-28 14:42:56 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 7972 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:42:56 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:42:56 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 7972 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:42:56 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:42:56 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:42:56 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:42:57 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -1886,12 +1886,12 @@ org.apache.tomcat.util.http.fileupload.impl.InvalidContentTypeException: the req
 [2024-11-28 14:42:57 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:42:57 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:42:57 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 775 ms
-[2024-11-28 14:42:57 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:42:57 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:42:57 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:42:58 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:42:58 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:42:58 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:42:58 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.628 seconds (process running for 2.014)
+[2024-11-28 14:42:58 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.628 seconds (process running for 2.014)
 [2024-11-28 14:43:06 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:43:06 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:43:06 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -1966,8 +1966,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2117,8 +2117,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2221,8 +2221,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:44:29 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:44:29 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:44:29 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:44:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 4060 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:44:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:44:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 4060 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:44:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:44:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:44:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:44:31 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -2231,12 +2231,12 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:44:31 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:44:31 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:44:31 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 765 ms
-[2024-11-28 14:44:31 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:44:31 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:44:32 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:44:32 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:44:32 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:44:32 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:44:32 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.612 seconds (process running for 1.956)
+[2024-11-28 14:44:32 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.612 seconds (process running for 1.956)
 [2024-11-28 14:44:36 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:44:36 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:44:36 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -2308,8 +2308,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2455,8 +2455,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2566,8 +2566,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2677,8 +2677,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2788,8 +2788,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2939,8 +2939,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3043,8 +3043,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:48:07 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:48:07 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:48:07 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:48:09 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12504 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:48:09 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:48:09 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12504 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:48:09 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:48:09 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:48:09 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:48:10 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -3053,12 +3053,12 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:48:10 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:48:10 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:48:10 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 763 ms
-[2024-11-28 14:48:10 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:48:10 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:48:10 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:48:10 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:48:10 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:48:10 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:48:10 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.61 seconds (process running for 1.955)
+[2024-11-28 14:48:10 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.61 seconds (process running for 1.955)
 [2024-11-28 14:48:12 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:48:12 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:48:12 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -3136,8 +3136,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3276,8 +3276,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:48:53 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:48:53 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:48:53 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:48:55 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6204 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:48:55 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:48:55 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6204 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:48:55 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:48:55 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:48:55 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:48:55 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -3286,12 +3286,12 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:48:55 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:48:55 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:48:55 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 759 ms
-[2024-11-28 14:48:55 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:48:55 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:48:56 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:48:56 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:48:56 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:48:56 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:48:56 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.603 seconds (process running for 1.944)
+[2024-11-28 14:48:56 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.603 seconds (process running for 1.944)
 [2024-11-28 14:48:59 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:48:59 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:48:59 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -3373,8 +3373,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3530,8 +3530,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3634,8 +3634,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:50:04 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:50:04 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:50:04 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:50:06 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12920 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:50:06 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:50:06 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12920 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:50:06 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:50:06 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:50:06 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:50:07 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -3644,12 +3644,12 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:50:07 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:50:07 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:50:07 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 771 ms
-[2024-11-28 14:50:07 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:50:07 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:50:07 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:50:07 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:50:07 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:50:07 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:50:07 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.634 seconds (process running for 1.979)
+[2024-11-28 14:50:07 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.634 seconds (process running for 1.979)
 [2024-11-28 14:50:11 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:50:11 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:50:11 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -3731,8 +3731,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy76.selUserByUid(Unknown Source)
-	at com.green.greengramver2.user.UserService.signInUser(UserService.java:45)
-	at com.green.greengramver2.user.UserController.userSignIn(UserController.java:29)
+	at com.green.greengram.user.UserService.signInUser(UserService.java:45)
+	at com.green.greengram.user.UserController.userSignIn(UserController.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3871,8 +3871,8 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:50:36 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:50:36 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:50:36 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:50:37 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 9672 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:50:37 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:50:37 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 9672 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:50:37 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:50:37 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:50:37 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:50:38 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -3881,12 +3881,12 @@ org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or nu
 [2024-11-28 14:50:38 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:50:38 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:50:38 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 766 ms
-[2024-11-28 14:50:38 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:50:38 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:50:38 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:50:39 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:50:39 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:50:39 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:50:39 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.632 seconds (process running for 2.027)
+[2024-11-28 14:50:39 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.632 seconds (process running for 2.027)
 [2024-11-28 14:50:40 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:50:40 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:50:40 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -4024,40 +4024,40 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 14:52:07 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:52:07 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:52:07 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:52:07 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 9672 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:52:07 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:52:07 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 9672 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:52:07 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:52:07 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:52:07 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:52:07 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:52:07 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:52:07 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:52:07 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 186 ms
-[2024-11-28 14:52:07 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:52:07 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:52:07 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:52:08 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:52:08 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:52:08 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:52:08 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.311 seconds (process running for 90.843)
+[2024-11-28 14:52:08 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.311 seconds (process running for 90.843)
 [2024-11-28 14:52:08 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 14:53:43 INFO File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-11-28 14:53:43 INFO Thread-7] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 9672 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 9672 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:53:44 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 14:53:44 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:53:44 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 14:53:44 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:53:44 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:53:44 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 165 ms
-[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:53:44 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:53:44 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:53:44 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:53:44 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.291 seconds (process running for 187.127)
+[2024-11-28 14:53:44 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.291 seconds (process running for 187.127)
 [2024-11-28 14:53:44 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
-[2024-11-28 14:55:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6276 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:55:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:55:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6276 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:55:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:55:35 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:55:35 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:55:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -4066,12 +4066,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 14:55:36 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:55:36 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:55:36 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 776 ms
-[2024-11-28 14:55:36 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:55:36 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:55:36 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:55:36 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:55:36 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:55:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:55:36 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.643 seconds (process running for 2.0)
+[2024-11-28 14:55:36 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.643 seconds (process running for 2.0)
 [2024-11-28 14:55:38 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:55:38 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:55:38 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -4228,8 +4228,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 14:56:27 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 14:56:27 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 14:56:27 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 14:56:29 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 10744 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 14:56:29 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 14:56:29 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 10744 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 14:56:29 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:56:29 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 14:56:29 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 14:56:30 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -4238,12 +4238,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 14:56:30 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 14:56:30 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 14:56:30 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 774 ms
-[2024-11-28 14:56:30 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 14:56:30 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 14:56:30 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 14:56:30 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 14:56:30 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:56:30 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:56:30 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.619 seconds (process running for 1.949)
+[2024-11-28 14:56:30 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.619 seconds (process running for 1.949)
 [2024-11-28 14:56:33 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 14:56:33 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 14:56:33 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -4373,8 +4373,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:01:09 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:01:09 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:01:09 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:01:11 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 512 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:01:11 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:01:11 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 512 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:01:11 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:01:11 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:01:11 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:01:12 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -4383,12 +4383,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:01:12 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:01:12 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:01:12 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 773 ms
-[2024-11-28 15:01:12 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:01:12 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:01:12 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:01:12 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:01:12 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:01:12 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:01:12 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.618 seconds (process running for 2.0)
+[2024-11-28 15:01:12 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.618 seconds (process running for 2.0)
 [2024-11-28 15:01:17 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:01:17 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:01:17 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -4545,8 +4545,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:02:33 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:02:33 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:02:33 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:02:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11240 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:02:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:02:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11240 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:02:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:02:35 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:02:35 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:02:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -4555,12 +4555,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:02:36 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:02:36 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:02:36 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 759 ms
-[2024-11-28 15:02:36 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:02:36 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:02:36 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:02:37 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:02:37 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:02:37 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:02:37 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.594 seconds (process running for 1.939)
+[2024-11-28 15:02:37 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.594 seconds (process running for 1.939)
 [2024-11-28 15:02:40 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:02:40 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:02:40 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -4689,8 +4689,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:04:10 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:04:10 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:04:10 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:04:12 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 1848 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:04:12 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:04:12 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 1848 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:04:12 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:04:12 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:04:12 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:04:13 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -4699,12 +4699,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:04:13 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:04:13 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:04:13 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 756 ms
-[2024-11-28 15:04:13 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:04:13 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:04:13 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:04:14 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:04:14 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:04:14 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:04:14 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.615 seconds (process running for 1.959)
+[2024-11-28 15:04:14 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.615 seconds (process running for 1.959)
 [2024-11-28 15:04:15 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:04:15 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:04:15 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -4840,8 +4840,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:07:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:07:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:07:13 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:07:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 1556 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:07:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:07:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 1556 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:07:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:07:15 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:07:15 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:07:16 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -4850,12 +4850,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:07:16 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:07:16 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:07:16 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 780 ms
-[2024-11-28 15:07:16 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:07:16 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:07:16 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:07:16 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:07:16 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:07:16 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:07:16 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.658 seconds (process running for 2.011)
+[2024-11-28 15:07:16 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.658 seconds (process running for 2.011)
 [2024-11-28 15:07:19 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:07:19 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:07:19 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -5012,8 +5012,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:09:28 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:09:28 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:09:28 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:09:30 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6580 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:09:30 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:09:30 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6580 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:09:30 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:09:30 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:09:30 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:09:31 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -5022,12 +5022,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:09:31 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:09:31 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:09:31 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 767 ms
-[2024-11-28 15:09:31 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:09:31 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:09:31 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:09:31 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:09:31 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:09:31 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:09:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.621 seconds (process running for 1.95)
+[2024-11-28 15:09:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.621 seconds (process running for 1.95)
 [2024-11-28 15:09:35 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:09:35 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:09:35 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -5184,8 +5184,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:21:23 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:21:23 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:21:23 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:21:25 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11928 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:21:25 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:21:25 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11928 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:21:25 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:21:25 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:21:25 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:21:26 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -5194,12 +5194,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:21:26 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:21:26 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:21:26 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 768 ms
-[2024-11-28 15:21:26 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:21:26 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:21:26 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:21:26 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:21:26 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:21:26 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:21:26 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.608 seconds (process running for 1.952)
+[2024-11-28 15:21:26 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.608 seconds (process running for 1.952)
 [2024-11-28 15:21:28 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:21:28 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:21:28 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -5398,8 +5398,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:23:27 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:23:27 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:23:27 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:23:29 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12780 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:23:29 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:23:29 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12780 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:23:29 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:23:29 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:23:29 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:23:30 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -5408,12 +5408,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:23:30 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:23:30 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:23:30 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 767 ms
-[2024-11-28 15:23:30 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:23:30 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:23:30 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:23:30 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:23:30 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:23:30 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:23:30 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.613 seconds (process running for 1.954)
+[2024-11-28 15:23:30 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.613 seconds (process running for 1.954)
 [2024-11-28 15:23:32 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:23:32 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:23:32 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -5549,8 +5549,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:25:29 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:25:29 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:25:29 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:25:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 14072 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:25:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:25:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 14072 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:25:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:25:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:25:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:25:32 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -5559,12 +5559,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:25:32 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:25:32 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:25:32 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 771 ms
-[2024-11-28 15:25:32 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:25:32 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:25:32 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:25:32 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:25:32 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:25:33 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:25:33 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.63 seconds (process running for 2.007)
+[2024-11-28 15:25:33 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.63 seconds (process running for 2.007)
 [2024-11-28 15:25:37 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:25:37 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:25:37 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -5702,20 +5702,20 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:28:14 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:28:14 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:28:14 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 14072 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 14072 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:28:14 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 15:28:14 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:28:14 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 15:28:14 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:28:14 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:28:14 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 184 ms
-[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:28:14 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:28:14 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:28:14 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:28:14 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.323 seconds (process running for 163.485)
+[2024-11-28 15:28:14 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.323 seconds (process running for 163.485)
 [2024-11-28 15:28:14 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 15:28:14 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:28:14 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
@@ -5852,8 +5852,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:28:46 INFO HikariPool-2 connection closer] [log4jdbc.log4j2] 20. Connection closed. {executed in 0ms} 
 [2024-11-28 15:28:46 INFO HikariPool-2 connection closer] [log4jdbc.log4j2] 20. Connection.close() returned 
 [2024-11-28 15:28:46 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown completed.
-[2024-11-28 15:28:48 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 10556 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:28:48 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:28:48 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 10556 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:28:48 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:28:48 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:28:48 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:28:49 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -5862,12 +5862,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:28:49 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:28:49 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:28:49 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 762 ms
-[2024-11-28 15:28:49 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:28:49 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:28:49 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:28:50 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:28:50 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:28:50 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:28:50 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.615 seconds (process running for 1.947)
+[2024-11-28 15:28:50 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.615 seconds (process running for 1.947)
 [2024-11-28 15:28:51 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:28:51 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:28:51 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -6073,8 +6073,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:30:24 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:30:24 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:30:24 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:30:27 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2448 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:30:27 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:30:27 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2448 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:30:27 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:30:27 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:30:27 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:30:27 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -6083,12 +6083,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:30:27 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:30:27 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:30:27 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 774 ms
-[2024-11-28 15:30:27 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:30:27 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:30:28 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:30:28 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:30:28 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:30:28 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:30:28 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.621 seconds (process running for 1.981)
+[2024-11-28 15:30:28 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.621 seconds (process running for 1.981)
 [2024-11-28 15:30:33 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:30:33 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:30:33 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -6226,23 +6226,23 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:30:51 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:30:51 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:30:51 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2448 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 2448 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:30:51 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 15:30:51 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:30:51 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 15:30:51 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:30:51 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:30:51 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 210 ms
-[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:30:51 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:30:51 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:30:51 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:30:51 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.358 seconds (process running for 25.559)
+[2024-11-28 15:30:51 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.358 seconds (process running for 25.559)
 [2024-11-28 15:30:51 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
-[2024-11-28 15:30:54 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11268 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:30:54 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:30:54 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 11268 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:30:54 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:30:54 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:30:54 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:30:55 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -6251,12 +6251,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:30:55 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:30:55 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:30:55 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 841 ms
-[2024-11-28 15:30:55 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:30:55 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:30:56 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:30:56 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:30:56 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:30:56 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:30:56 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.726 seconds (process running for 2.073)
+[2024-11-28 15:30:56 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.726 seconds (process running for 2.073)
 [2024-11-28 15:30:56 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:30:56 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:30:56 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -6392,8 +6392,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:31:30 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:31:30 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:31:30 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:31:32 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 8972 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:31:32 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:31:32 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 8972 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:31:32 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:31:32 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:31:32 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:31:32 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -6402,12 +6402,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:31:32 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:31:32 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:31:32 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 766 ms
-[2024-11-28 15:31:32 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:31:32 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:31:33 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:31:33 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:31:33 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:31:33 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:31:33 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.606 seconds (process running for 1.956)
+[2024-11-28 15:31:33 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.606 seconds (process running for 1.956)
 [2024-11-28 15:31:36 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:31:36 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:31:36 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -6613,8 +6613,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:33:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:33:13 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:33:13 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:33:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12708 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:33:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:33:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 12708 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:33:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:33:15 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:33:15 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:33:16 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -6623,12 +6623,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:33:16 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:33:16 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:33:16 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 830 ms
-[2024-11-28 15:33:16 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:33:16 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:33:16 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:33:17 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:33:17 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:33:17 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:33:17 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.686 seconds (process running for 2.041)
+[2024-11-28 15:33:17 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.686 seconds (process running for 2.041)
 [2024-11-28 15:33:17 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:33:17 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:33:17 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -6764,8 +6764,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:35:29 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:35:29 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:35:29 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:35:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 8716 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:35:31 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:35:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 8716 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:35:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:35:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:35:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:35:31 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -6774,12 +6774,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:35:31 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:35:32 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:35:32 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 758 ms
-[2024-11-28 15:35:32 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:35:32 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:35:32 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:35:32 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:35:32 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:35:32 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:35:32 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.617 seconds (process running for 1.98)
+[2024-11-28 15:35:32 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.617 seconds (process running for 1.98)
 [2024-11-28 15:35:34 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:35:34 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:35:34 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
@@ -6915,8 +6915,8 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:37:37 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:37:37 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:37:37 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:37:39 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3632 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:37:39 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:37:39 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3632 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:37:39 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:37:39 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 15:37:39 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 15:37:39 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -6925,12 +6925,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:37:39 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:37:39 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:37:39 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 773 ms
-[2024-11-28 15:37:39 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:37:39 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:37:40 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:37:40 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:37:40 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:37:40 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:37:40 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.641 seconds (process running for 1.99)
+[2024-11-28 15:37:40 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.641 seconds (process running for 1.99)
 [2024-11-28 15:37:42 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 15:37:42 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 15:37:42 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -7068,40 +7068,40 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 15:41:35 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection closed. {executed in 0ms} 
 [2024-11-28 15:41:35 INFO HikariPool-1 connection closer] [log4jdbc.log4j2] 10. Connection.close() returned 
 [2024-11-28 15:41:35 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[2024-11-28 15:41:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3632 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:41:35 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:41:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3632 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:41:35 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:41:35 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 15:41:35 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:41:35 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 15:41:35 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:41:35 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:41:35 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 202 ms
-[2024-11-28 15:41:35 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:41:35 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:41:35 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:41:36 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:41:36 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:41:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:41:36 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.336 seconds (process running for 237.643)
+[2024-11-28 15:41:36 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.336 seconds (process running for 237.643)
 [2024-11-28 15:41:36 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
 [2024-11-28 15:42:15 INFO File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
 [2024-11-28 15:42:15 INFO Thread-7] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3632 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 3632 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:42:15 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
 [2024-11-28 15:42:15 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:42:15 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
 [2024-11-28 15:42:15 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 15:42:15 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 15:42:15 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 188 ms
-[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 15:42:15 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 15:42:15 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 15:42:15 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:42:15 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 0.32 seconds (process running for 277.061)
+[2024-11-28 15:42:15 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 0.32 seconds (process running for 277.061)
 [2024-11-28 15:42:15 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
-[2024-11-28 17:21:21 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6768 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
-[2024-11-28 17:21:21 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 17:21:21 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 6768 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-11-28 17:21:21 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 17:21:21 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 [2024-11-28 17:21:21 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 [2024-11-28 17:21:22 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
@@ -7110,12 +7110,12 @@ user where uid = '1234567';  {executed in 1 ms}
 [2024-11-28 17:21:22 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
 [2024-11-28 17:21:22 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
 [2024-11-28 17:21:22 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 784 ms
-[2024-11-28 17:21:22 INFO restartedMain] [com.green.greengramver2.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
+[2024-11-28 17:21:22 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자 D:/BHB/download/greengram_ver2
 [2024-11-28 17:21:22 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
 [2024-11-28 17:21:22 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
 [2024-11-28 17:21:22 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 17:21:22 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 17:21:22 INFO restartedMain] [com.green.greengramver2.GreenGramVer2Application] Started GreenGramVer2Application in 1.658 seconds (process running for 2.003)
+[2024-11-28 17:21:22 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.658 seconds (process running for 2.003)
 [2024-11-28 17:21:24 INFO http-nio-8080-exec-3] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
 [2024-11-28 17:21:24 INFO http-nio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
 [2024-11-28 17:21:24 INFO http-nio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
@@ -7171,8 +7171,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=354) Cannot add or upda
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy81.insFeed(Unknown Source)
-	at com.green.greengramver2.feed.FeedService.postFeed(FeedService.java:21)
-	at com.green.greengramver2.feed.FeedController.postFeed(FeedController.java:28)
+	at com.green.greengram.feed.FeedService.postFeed(FeedService.java:21)
+	at com.green.greengram.feed.FeedController.postFeed(FeedController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7270,8 +7270,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=354) Cannot add or upda
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy81.insFeed(Unknown Source)
-	at com.green.greengramver2.feed.FeedService.postFeed(FeedService.java:21)
-	at com.green.greengramver2.feed.FeedController.postFeed(FeedController.java:28)
+	at com.green.greengram.feed.FeedService.postFeed(FeedService.java:21)
+	at com.green.greengram.feed.FeedController.postFeed(FeedController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7397,8 +7397,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=354) Cannot add or upda
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy81.insFeed(Unknown Source)
-	at com.green.greengramver2.feed.FeedService.postFeed(FeedService.java:21)
-	at com.green.greengramver2.feed.FeedController.postFeed(FeedController.java:28)
+	at com.green.greengram.feed.FeedService.postFeed(FeedService.java:21)
+	at com.green.greengram.feed.FeedController.postFeed(FeedController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7490,8 +7490,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=354) Cannot add or upda
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy81.insFeed(Unknown Source)
-	at com.green.greengramver2.feed.FeedService.postFeed(FeedService.java:21)
-	at com.green.greengramver2.feed.FeedController.postFeed(FeedController.java:28)
+	at com.green.greengram.feed.FeedService.postFeed(FeedService.java:21)
+	at com.green.greengram.feed.FeedController.postFeed(FeedController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7585,8 +7585,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=354) Cannot add or upda
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy81.insFeed(Unknown Source)
-	at com.green.greengramver2.feed.FeedService.postFeed(FeedService.java:21)
-	at com.green.greengramver2.feed.FeedController.postFeed(FeedController.java:28)
+	at com.green.greengram.feed.FeedService.postFeed(FeedService.java:21)
+	at com.green.greengram.feed.FeedController.postFeed(FeedController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -7678,8 +7678,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=354) Cannot add or upda
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy81.insFeed(Unknown Source)
-	at com.green.greengramver2.feed.FeedService.postFeed(FeedService.java:21)
-	at com.green.greengramver2.feed.FeedController.postFeed(FeedController.java:28)
+	at com.green.greengram.feed.FeedService.postFeed(FeedService.java:21)
+	at com.green.greengram.feed.FeedController.postFeed(FeedController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -1,0 +1,352 @@
+[2024-12-04 10:36:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Starting GreenGramVer2Application using Java 17.0.12 with PID 8040 (D:\BHB\GreenGramVer2\build\classes\java\main started by Administrator in D:\BHB\GreenGramVer2)
+[2024-12-04 10:36:31 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] No active profile set, falling back to 1 default profile: "default"
+[2024-12-04 10:36:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-04 10:36:31 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-04 10:36:31 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-04 10:36:31 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-04 10:36:31 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-04 10:36:31 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-04 10:36:31 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-04 10:36:31 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 799 ms
+[2024-12-04 10:36:31 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:/2024-02/download/greengram_ver2
+[2024-12-04 10:36:31 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-04 10:36:32 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@27a32219
+[2024-12-04 10:36:32 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-04 10:36:32 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-04 10:36:32 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-04 10:36:32 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-04 10:36:32 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-04 10:36:32 INFO restartedMain] [com.green.greengram.GreenGramVer3Application] Started GreenGramVer2Application in 1.754 seconds (process running for 2.091)
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [com.green.greengram.feed.FeedController] FeedController > getFeedList > p: FeedGetReq(super=Paging(page=1, size=20, startIdx=0), signedUserId=6)
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_id AS feedId, A.contents, A.location
+             , A.created_at AS createdAt
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+             , IF(C.feed_id IS NULL, 0, 1) AS isLike
+          FROM feed A
+         INNER JOIN user B
+            ON A.writer_user_id = B.user_id
+          LEFT JOIN feed_like C
+            ON A.feed_id = C.feed_id
+           AND C.user_id = 6
+         ORDER BY A.feed_id DESC
+         LIMIT 0, 20
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|--------|---------|---------|--------------------|--------|---------|-----------------------------------------|-------|
+|feed_id |contents |location |created_at          |user_id |writernm |pic                                      |islike |
+|--------|---------|---------|--------------------|--------|---------|-----------------------------------------|-------|
+|15      |ㅁㄴㅇ      |ㅁㄴㅇ      |2024-12-03 15:48:41 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|14      |ㅇ        |ㅇ        |2024-12-03 11:49:38 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|13      |d        |d        |2024-12-03 11:15:02 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|12      |ㅁㄴㅇ      |ㅁㄴㅇ      |2024-11-29 16:17:53 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|11      |         |         |2024-11-29 16:12:11 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|10      |asd      |asd      |2024-11-29 16:05:52 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|9       |sda      |asd      |2024-11-29 16:00:32 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|5       |123      |중앙로      |2024-11-29 10:36:12 |2       |홍길동      |6d88f58a-0c38-4010-b703-3ccb187071d8.jpg |0      |
+|4       |123      |그린컴      |2024-11-28 17:24:40 |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |0      |
+|--------|---------|---------|--------------------|--------|---------|-----------------------------------------|-------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 15
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|12526740-807d-47f8-a45b-1c05ac9f99ce.gif |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 15
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|----|
+|feed_comment_id |comment |user_id |writernm |pic |
+|----------------|--------|--------|---------|----|
+|----------------|--------|--------|---------|----|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 14
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|d3ab1225-6450-4fc4-9f31-eb10a531825a.gif |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 14
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|-----------------------------------------|
+|feed_comment_id |comment |user_id |writernm |pic                                      |
+|----------------|--------|--------|---------|-----------------------------------------|
+|72              |4       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|71              |3       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|70              |2       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|69              |1       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|----------------|--------|--------|---------|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 13
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|7af273d9-3528-498f-b249-e48a4bc99755.jpg |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 13
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|-----------------------------------------|
+|feed_comment_id |comment |user_id |writernm |pic                                      |
+|----------------|--------|--------|---------|-----------------------------------------|
+|56              |29      |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|55              |28      |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|54              |27      |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|53              |26      |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|----------------|--------|--------|---------|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 12
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|---------|
+|pic      |
+|---------|
+|aaaa.gif |
+|---------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 12
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|-----------------------------------------|
+|feed_comment_id |comment |user_id |writernm |pic                                      |
+|----------------|--------|--------|---------|-----------------------------------------|
+|23              |ㅂ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|22              |ㅂ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|21              |ㅂ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|20              |ㄴㅇㅁ     |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|----------------|--------|--------|---------|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 11
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|f3f416ca-1a7e-4483-b1db-b2164d76d4f4.png |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 11
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|----|
+|feed_comment_id |comment |user_id |writernm |pic |
+|----------------|--------|--------|---------|----|
+|----------------|--------|--------|---------|----|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 10
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|53da69e7-7ae4-4e7b-b95b-a4c4ca01bdc8.jpg |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 10
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|-----------------------------------------|
+|feed_comment_id |comment |user_id |writernm |pic                                      |
+|----------------|--------|--------|---------|-----------------------------------------|
+|29              |ㅁ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|28              |ㅁ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|27              |ㅁ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|26              |ㅁ       |1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |
+|----------------|--------|--------|---------|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 9
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|7875594b-3649-4059-a29a-5c09feeab0ad.jpg |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 9
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|----|
+|feed_comment_id |comment |user_id |writernm |pic |
+|----------------|--------|--------|---------|----|
+|----------------|--------|--------|---------|----|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 5
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|-----------------------------------------|
+|pic                                      |
+|-----------------------------------------|
+|675d9f82-0c18-4f6e-91a3-9858129aeb7e.jpg |
+|c95cc439-e1e7-40f4-81fa-013b069631ca.jpg |
+|f490d2ad-c64d-4006-a74a-8235888e3e87.jpg |
+|-----------------------------------------|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 5
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 1 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|----|
+|feed_comment_id |comment |user_id |writernm |pic |
+|----------------|--------|--------|---------|----|
+|----------------|--------|--------|---------|----|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT pic
+          FROM feed_pics
+         WHERE feed_id = 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----|
+|pic |
+|----|
+|----|
+
+[2024-12-04 10:36:34 DEBUGhttp-nio-8080-exec-6] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.feed_comment_id AS feedCommentId
+             , A.comment
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+          FROM feed_comments A
+         INNER JOIN user B
+            ON A.user_id = B.user_id
+         WHERE A.feed_id = 4
+         ORDER BY A.feed_comment_id DESC
+         LIMIT 0, 4
+ {executed in 0 msec}
+[2024-12-04 10:36:34 INFO http-nio-8080-exec-6] [jdbc.resultsettable] 
+|----------------|--------|--------|---------|----|
+|feed_comment_id |comment |user_id |writernm |pic |
+|----------------|--------|--------|---------|----|
+|----------------|--------|--------|---------|----|
+
+[2024-12-04 10:36:41 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-04 10:36:41 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.

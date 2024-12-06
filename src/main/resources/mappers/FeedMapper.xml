@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.green.greengramver2.feed.FeedMapper">
+
+<mapper namespace="com.green.greengram.feed.FeedMapper">
     <insert id="insFeed" useGeneratedKeys="true" keyProperty="feedId">
-        insert into feed
-        set writer_user_id = #{writerUserId}
-        , contents = #{contents}
-        , location = #{location}
+        INSERT INTO feed
+           SET writer_user_id = #{writerUserId}
+             , contents = #{contents}
+             , location = #{location}
     </insert>
+
     <select id="selFeedList">
-        SELECT A.feed_id AS feedId,
-        C.user_id AS writerUserId,
-        if(C.nick_name IS NULL, C.uid, C.nick_name) AS writerNm,
-        C.pic AS writerPic,
-        contents, location,
-        A.created_at AS createdAt,
-        if(D.feed_id IS NULL, 0, 1) AS isLike
-        from feed A
-        JOIN user C
-        ON A.writer_user_id = C.user_id
-        LEFT JOIN feed_like D
-        ON C.user_id = D.user_id
-        AND D.user_id = #{signedUserId}
-        order BY A.feed_id DESC
-        LIMIT #{startIdx}, #{size}
+        SELECT A.feed_id AS feedId, A.contents, A.location
+             , A.created_at AS createdAt
+             , B.user_id AS writerUserId
+             , IF(B.nick_name IS NULL, B.uid, B.nick_name) AS writerNm
+             , B.pic AS writerPic
+             , IF(C.feed_id IS NULL, 0, 1) AS isLike
+          FROM feed A
+         INNER JOIN user B
+            ON A.writer_user_id = B.user_id
+          LEFT JOIN feed_like C
+            ON A.feed_id = C.feed_id
+           AND C.user_id = #{signedUserId}
+         ORDER BY A.feed_id DESC
+         LIMIT #{startIdx}, #{size}
     </select>
 </mapper>

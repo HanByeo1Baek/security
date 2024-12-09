@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -67,6 +68,7 @@ public class UserService {
         return mapper.selUserInfo2(p);
     }
 
+    @Transactional
     public String patchUserPic(UserPicPatchReq p){
         // 1. 저장할 파일명(랜덤한 파일명) 생성한다. 이때, 확장자는 오리지날 파일명과 일치하게 한다.
         String savedPicName = (p.getPic() != null ? myFileUtils.makeRandomFileName(p.getPic()) : null);
@@ -78,16 +80,18 @@ public class UserService {
         myFileUtils.deleteFolder(path, false);
 
         // 3. 원하는 위치에 저장할 파일명으로 파일을 이동(transferTo) 한다.
+        // 4. DB에 튜플을 수정(Update)한다.
+        p.setPicName(savedPicName);
+        int result = mapper.updUserPic(p);
+
+        if(p.getPic() == null) { return null; }
+
         String filePath = String.format("user/%d/%s", p.getSignedUserId(), savedPicName);
         try{
             myFileUtils.transferTo(p.getPic(), filePath);
         }catch(IOException e){
             e.printStackTrace();
         }
-
-        // 4. DB에 튜플을 수정(Update)한다.
-        p.setPicName(savedPicName);
-        int result = mapper.updUserPic(p);
         return savedPicName;
     }
 }

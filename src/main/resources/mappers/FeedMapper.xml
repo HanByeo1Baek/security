@@ -19,7 +19,10 @@
           FROM feed A
          INNER JOIN user B
             ON A.writer_user_id = B.user_id
-          LEFT JOIN feed_like C
+        <if test="profileUserId != null">
+            AND B.user_id = #{profileUserId}
+        </if>
+        LEFT JOIN feed_like C
             ON A.feed_id = C.feed_id
            AND C.user_id = #{signedUserId}
          ORDER BY A.feed_id DESC

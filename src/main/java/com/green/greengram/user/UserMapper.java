@@ -11,4 +11,5 @@ public interface UserMapper {
     UserInfoGetRes selUserInfo(UserInfoGetReq p);
     UserInfoGetRes selUserInfo2(UserInfoGetReq p);
     int updUserPic(UserPicPatchReq p);
+
 }

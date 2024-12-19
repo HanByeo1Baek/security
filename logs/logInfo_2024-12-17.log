@@ -1,0 +1,523 @@
+[2024-12-17 10:49:39 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 7824 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 10:49:39 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 10:49:39 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 10:49:39 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 10:49:40 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 10:49:40 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 10:49:40 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 10:49:40 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 10:49:40 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 10:49:40 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 960 ms
+[2024-12-17 10:49:40 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 10:49:40 WARN restartedMain] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenProvider' defined in file [D:\BHB\GreenGramSecurity\build\classes\java\main\com\green\greengram\config\jwt\TokenProvider.class]: Failed to instantiate [com.green.greengram.config.jwt.TokenProvider]: Constructor threw exception
+[2024-12-17 10:49:40 INFO restartedMain] [org.apache.catalina.core.StandardService] Stopping service [Tomcat]
+[2024-12-17 10:49:40 INFO restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-12-17 10:49:40 ERRORrestartedMain] [org.springframework.boot.SpringApplication] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenProvider' defined in file [D:\BHB\GreenGramSecurity\build\classes\java\main\com\green\greengram\config\jwt\TokenProvider.class]: Failed to instantiate [com.green.greengram.config.jwt.TokenProvider]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.green.greengram.GreenGramApplication.main(GreenGramApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.green.greengram.config.jwt.TokenProvider]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	... 24 common frames omitted
+Caused by: io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 96 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.security.Keys.hmacShaKeyFor(Keys.java:83)
+	at com.green.greengram.config.jwt.TokenProvider.<init>(TokenProvider.java:33)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	... 26 common frames omitted
+[2024-12-17 10:49:57 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 1052 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 10:49:57 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 10:49:57 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 10:49:57 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 10:49:58 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 10:49:58 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 10:49:58 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 10:49:58 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 10:49:58 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 10:49:58 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 853 ms
+[2024-12-17 10:49:58 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 10:49:58 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 10:49:58 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@32b0c3f5
+[2024-12-17 10:49:58 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 10:49:58 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 10:49:58 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: f87c3752-cca7-4921-bb14-18d20b239410
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 10:49:58 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 10:49:59 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 10:49:59 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-17 10:49:59 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 10:49:59 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 1.999 seconds (process running for 2.352)
+[2024-12-17 10:56:03 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 10:56:03 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 10:56:06 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 8104 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 10:56:06 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 10:56:06 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 10:56:06 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 10:56:07 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 10:56:07 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 10:56:07 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 10:56:07 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 10:56:07 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 10:56:07 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 961 ms
+[2024-12-17 10:56:07 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:00:36 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:00:36 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@26424f43
+[2024-12-17 11:00:36 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:00:36 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:00:36 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 8213b3d6-7975-4f57-9b95-28d2d5445cd7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:00:36 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:00:36 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 11:00:36 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 11:00:36 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 270.887 seconds (process running for 271.585)
+[2024-12-17 11:00:36 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 11:00:36 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 11:10:19 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 10892 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:10:19 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:10:20 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:10:20 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:10:20 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@6fe04f2a
+[2024-12-17 11:10:20 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:10:20 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:10:21 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: c154175d-3e8c-4d83-ae14-5df53591afe0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:10:21 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:10:21 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 1.921 seconds (process running for 2.738)
+[2024-12-17 11:10:21 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 11:10:21 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 11:32:12 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 7980 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:32:12 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:32:13 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:32:13 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:32:13 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5e68be2
+[2024-12-17 11:32:13 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:32:14 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:32:14 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 62ff1e02-efdb-4ed4-be58-fd705b9072da
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:32:14 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:32:14 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 1.895 seconds (process running for 2.726)
+[2024-12-17 11:32:15 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 11:32:15 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 11:36:31 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 5884 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:36:31 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:36:31 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:36:31 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:36:32 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@104a287c
+[2024-12-17 11:36:32 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:36:32 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:36:32 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: e4fd2c56-a4d4-4231-980c-b332ca80bb1e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:36:32 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:36:32 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.057 seconds (process running for 2.899)
+[2024-12-17 11:36:33 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 11:36:33 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 11:36:57 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 10640 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:36:57 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:36:58 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:36:58 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:36:58 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@104a287c
+[2024-12-17 11:36:58 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:36:58 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:36:59 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 651d4aa4-c9ae-4719-8624-18fd5e440bbe
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:36:59 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:36:59 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 1.931 seconds (process running for 2.746)
+[2024-12-17 11:36:59 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 11:36:59 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 11:38:08 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 9372 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:38:08 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:38:09 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:38:09 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:38:10 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@61911947
+[2024-12-17 11:38:10 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:38:10 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:38:10 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 0f42c7df-0e15-447f-8eec-7e9c41417517
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:38:10 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:38:10 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.115 seconds (process running for 3.05)
+[2024-12-17 11:38:48 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 11152 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:38:48 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:38:49 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:38:49 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:38:49 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@34cd65ac
+[2024-12-17 11:38:49 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:38:49 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:38:50 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 4c1a8e1b-27b2-4e17-8cad-10a7f29be4f5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:38:50 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:38:50 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.105 seconds (process running for 3.019)
+[2024-12-17 11:52:18 WARN HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m28s798ms932µs).
+[2024-12-17 11:53:09 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 9844 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:53:09 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:53:10 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:53:10 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:53:10 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@34cd65ac
+[2024-12-17 11:53:10 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:53:11 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:53:11 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 2656d27d-5b8b-4ced-87d2-d452c26d3395
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:53:11 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:53:11 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.109 seconds (process running for 3.028)
+[2024-12-17 11:57:57 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 7012 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:57:57 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:57:57 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:57:58 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:57:58 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@61911947
+[2024-12-17 11:57:58 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:57:58 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:57:58 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: cbdce0e0-bf43-4e82-837b-500dfa169237
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:57:58 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:57:58 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.093 seconds (process running for 3.022)
+[2024-12-17 11:59:43 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 3568 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 11:59:43 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 11:59:44 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 11:59:44 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 11:59:44 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@19d53ab4
+[2024-12-17 11:59:44 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 11:59:44 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 11:59:44 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: a432d812-13b3-440b-a76b-140fe1a91585
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 11:59:44 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 11:59:44 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.081 seconds (process running for 2.993)
+[2024-12-17 12:03:51 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 6884 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 12:03:51 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 12:03:52 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 12:03:52 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 12:03:52 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@34cd65ac
+[2024-12-17 12:03:52 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 12:03:52 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 12:03:53 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 693ca107-1479-4101-a247-3ee93c84b280
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 12:03:53 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 12:03:53 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.122 seconds (process running for 3.025)
+[2024-12-17 12:04:06 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Starting TokenProviderTest using Java 17.0.12 with PID 9352 (started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 12:04:06 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 12:04:06 INFO Test worker] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 12:04:06 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 12:04:07 INFO Test worker] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7bede4ea
+[2024-12-17 12:04:07 INFO Test worker] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 12:04:07 INFO Test worker] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 12:04:07 WARN Test worker] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 87efacb5-808e-4718-a021-c0cc351c90a0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 12:04:07 INFO Test worker] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 12:04:07 INFO Test worker] [com.green.greengram.config.jwt.TokenProviderTest] Started TokenProviderTest in 2.1 seconds (process running for 3.074)
+[2024-12-17 13:03:36 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 7780 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 13:03:36 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 13:03:36 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 13:03:36 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 13:03:37 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 13:03:37 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:03:37 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 13:03:37 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 13:03:37 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 13:03:37 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 863 ms
+[2024-12-17 13:03:37 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 13:03:37 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 13:03:37 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@6e6e57b7
+[2024-12-17 13:03:37 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 13:03:37 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 7819b2e1-9cdd-429e-8762-6422f07b90f3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 13:03:37 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 13:03:37 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 13:03:37 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 13:03:37 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:03:37 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 13:03:37 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 1.958 seconds (process running for 2.307)
+[2024-12-17 13:03:44 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-12-17 13:03:44 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-12-17 13:03:44 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
+[2024-12-17 13:04:19 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 13:04:19 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 13:04:21 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 10572 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 13:04:21 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 13:04:21 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 13:04:21 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 13:04:22 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 13:04:22 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:04:22 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 13:04:22 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 13:04:22 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 13:04:22 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 853 ms
+[2024-12-17 13:04:22 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 13:04:22 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 13:04:22 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5a7bb2cf
+[2024-12-17 13:04:22 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 13:04:22 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 693e52e2-9e69-406c-99b8-17364c1d5553
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 13:04:22 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 13:04:22 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 13:04:22 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 13:04:22 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:04:22 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 13:04:22 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 1.923 seconds (process running for 2.266)
+[2024-12-17 13:04:26 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-12-17 13:04:26 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-12-17 13:04:26 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+[2024-12-17 13:04:33 INFO http-nio-8080-exec-3] [com.green.greengram.user.UserController] UserController > getUserInfo > p : UserInfoGetReq(signedUserId=9, profileUserId=9)
+[2024-12-17 13:04:33 DEBUGhttp-nio-8080-exec-3] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.user_id AS userId, A.pic, A.created_at AS createdAt
+        , IF(A.nick_name IS NULL, A.uid, A.nick_name) AS nickName
+        , COUNT(DISTINCT F1.from_user_id, F1.to_user_id) AS `follower`
+        , COUNT(DISTINCT F2.from_user_id, F2.to_user_id) AS `following`
+        , COUNT(DISTINCT F3.feed_id) AS feedCount
+        , COUNT(DISTINCT F4.feed_id, F4.user_id) AS myFeedLikeCount
+        , MAX(IF(F1.from_user_id = 9, 1, 0))
+        + MAX(IF(F2.to_user_id = 9, 2, 0)) AS followState
+        FROM user A
+        LEFT JOIN user_follow F1
+        ON A.user_id = F1.to_user_id
+        LEFT JOIN user_follow F2
+        ON A.user_id = F2.from_user_id
+        LEFT JOIN feed F3
+        ON A.user_id = F3.writer_user_id
+        LEFT JOIN feed_like F4
+        ON F3.feed_id = F4.feed_id
+        WHERE A.user_id = 9;
+ {executed in 13 msec}
+[2024-12-17 13:04:33 INFO http-nio-8080-exec-3] [jdbc.resultsettable] 
+|--------|----|-----------|---------|---------|----------|----------|----------------|------------|
+|user_id |pic |created_at |nickname |follower |following |feedcount |myfeedlikecount |followstate |
+|--------|----|-----------|---------|---------|----------|----------|----------------|------------|
+|[null]  |null|null       |null     |0        |0         |0         |0               |[null]      |
+|--------|----|-----------|---------|---------|----------|----------|----------------|------------|
+
+[2024-12-17 13:05:13 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 13:05:13 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 13:05:16 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 9320 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 13:05:16 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 13:05:16 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 13:05:16 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 13:05:16 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 13:05:16 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:05:16 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 13:05:16 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 13:05:16 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 13:05:16 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 854 ms
+[2024-12-17 13:05:16 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 13:05:17 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 13:05:17 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@78f55dfb
+[2024-12-17 13:05:17 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 13:05:17 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 60757cdf-05e0-434c-8737-4092923591b9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 13:05:17 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 13:05:17 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 13:05:17 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 13:05:17 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:05:17 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 13:05:17 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 1.915 seconds (process running for 2.265)
+[2024-12-17 13:05:21 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-12-17 13:05:21 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-12-17 13:05:21 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
+[2024-12-17 13:05:28 DEBUGhttp-nio-8080-exec-1] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT user_id AS userId
+             , IFNULL(nick_name, uid) AS nickName
+             , pic, upw
+          FROM user
+         WHERE uid = '1'
+ {executed in 2 msec}
+[2024-12-17 13:05:28 INFO http-nio-8080-exec-1] [jdbc.resultsettable] 
+|--------|---------|----|----|
+|user_id |nickname |pic |upw |
+|--------|---------|----|----|
+|--------|---------|----|----|
+
+[2024-12-17 13:05:33 DEBUGhttp-nio-8080-exec-2] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT user_id AS userId
+             , IFNULL(nick_name, uid) AS nickName
+             , pic, upw
+          FROM user
+         WHERE uid = '123456'
+ {executed in 0 msec}
+[2024-12-17 13:05:33 INFO http-nio-8080-exec-2] [jdbc.resultsettable] 
+|--------|---------|-----------------------------------------|-------------------------------------------------------------|
+|user_id |nickname |pic                                      |upw                                                          |
+|--------|---------|-----------------------------------------|-------------------------------------------------------------|
+|1       |123456   |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |$2a$10$HVKJHBG1Y84PZoKHh2LWSeEj5fUpndTfiNwEGZN1M2PmlyY3/S5zS |
+|--------|---------|-----------------------------------------|-------------------------------------------------------------|
+
+[2024-12-17 13:05:47 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 13:05:47 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 13:05:49 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 6280 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 13:05:49 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 13:05:49 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-12-17 13:05:49 INFO restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-12-17 13:05:49 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 13:05:49 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:05:49 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 13:05:49 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 13:05:50 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 13:05:50 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 841 ms
+[2024-12-17 13:05:50 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 13:05:50 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-12-17 13:05:50 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@36bde283
+[2024-12-17 13:05:50 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-12-17 13:05:50 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 84fc499d-b5e3-4248-b6c4-c8e0f59e9b41
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 13:05:50 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 13:05:50 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 13:05:50 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 13:05:50 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:05:50 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 13:05:50 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 1.938 seconds (process running for 2.278)
+[2024-12-17 13:05:52 INFO http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-12-17 13:05:52 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+[2024-12-17 13:05:52 INFO http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 0 ms
+[2024-12-17 13:05:56 INFO http-nio-8080-exec-2] [com.green.greengram.user.UserController] UserController > getUserInfo > p : UserInfoGetReq(signedUserId=1, profileUserId=1)
+[2024-12-17 13:05:56 DEBUGhttp-nio-8080-exec-2] [jdbc.sqltiming]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT A.user_id AS userId, A.pic, A.created_at AS createdAt
+        , IF(A.nick_name IS NULL, A.uid, A.nick_name) AS nickName
+        , COUNT(DISTINCT F1.from_user_id, F1.to_user_id) AS `follower`
+        , COUNT(DISTINCT F2.from_user_id, F2.to_user_id) AS `following`
+        , COUNT(DISTINCT F3.feed_id) AS feedCount
+        , COUNT(DISTINCT F4.feed_id, F4.user_id) AS myFeedLikeCount
+        , MAX(IF(F1.from_user_id = 1, 1, 0))
+        + MAX(IF(F2.to_user_id = 1, 2, 0)) AS followState
+        FROM user A
+        LEFT JOIN user_follow F1
+        ON A.user_id = F1.to_user_id
+        LEFT JOIN user_follow F2
+        ON A.user_id = F2.from_user_id
+        LEFT JOIN feed F3
+        ON A.user_id = F3.writer_user_id
+        LEFT JOIN feed_like F4
+        ON F3.feed_id = F4.feed_id
+        WHERE A.user_id = 1;
+ {executed in 2 msec}
+[2024-12-17 13:05:56 INFO http-nio-8080-exec-2] [jdbc.resultsettable] 
+|--------|-----------------------------------------|--------------------|---------|---------|----------|----------|----------------|------------|
+|user_id |pic                                      |created_at          |nickname |follower |following |feedcount |myfeedlikecount |followstate |
+|--------|-----------------------------------------|--------------------|---------|---------|----------|----------|----------------|------------|
+|1       |6e1da108-55b7-47ba-891d-b621ca3f24a0.jpg |2024-11-28 12:39:46 |123456   |2        |3         |0         |0               |0           |
+|--------|-----------------------------------------|--------------------|---------|---------|----------|----------|----------------|------------|
+
+[2024-12-17 13:10:30 INFO File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[2024-12-17 13:10:30 INFO Thread-5] [org.apache.coyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:10:30 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-12-17 13:10:30 INFO Thread-5] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-12-17 13:10:30 INFO restartedMain] [com.green.greengram.GreenGramApplication] Starting GreenGramApplication using Java 17.0.12 with PID 6280 (D:\BHB\GreenGramSecurity\build\classes\java\main started by Administrator in D:\BHB\GreenGramSecurity)
+[2024-12-17 13:10:30 INFO restartedMain] [com.green.greengram.GreenGramApplication] No active profile set, falling back to 1 default profile: "default"
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8080 (http)
+[2024-12-17 13:10:30 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:10:30 INFO restartedMain] [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+[2024-12-17 13:10:30 INFO restartedMain] [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2024-12-17 13:10:30 INFO restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 214 ms
+[2024-12-17 13:10:30 INFO restartedMain] [com.green.greengram.common.MyFileUtils] MyFileUtils - 생성자: D:\BHB\download\greengram_ver3
+[2024-12-17 13:10:30 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Starting...
+[2024-12-17 13:10:30 INFO restartedMain] [com.zaxxer.hikari.pool.HikariPool] HikariPool-2 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@65d0d8cf
+[2024-12-17 13:10:30 INFO restartedMain] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Start completed.
+[2024-12-17 13:10:30 WARN restartedMain] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 6a8852c5-dd34-4313-91bd-d0ab880a4a59
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+[2024-12-17 13:10:30 INFO restartedMain] [org.apache.coyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-8080"]
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-17 13:10:30 INFO restartedMain] [com.green.greengram.GreenGramApplication] Started GreenGramApplication in 0.409 seconds (process running for 282.326)
+[2024-12-17 13:10:30 INFO restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+[2024-12-17 13:11:01 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown initiated...
+[2024-12-17 13:11:01 INFO SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Shutdown completed.

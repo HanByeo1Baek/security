@@ -31,7 +31,7 @@ public class FeedController {
                 .build();
     }
 
-    @GetMapping
+    @GetMapping("ver3")
     @Operation(summary = "Feed 리스트", description = "signed_user_id는 로그인한 사용자의 pk")
     public ResultResponse<List<FeedGetRes>> getFeedList(@ParameterObject @ModelAttribute FeedGetReq p) {
         log.info("FeedController > getFeedList > p: {}", p);

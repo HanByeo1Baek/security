@@ -4,6 +4,10 @@ const:
 file:
   directory: D:\BHB\download\greengram_ver3
 
+jwt:
+  issuer: green@green.kr
+  secret-key: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 mybatis:
   mapper-locations: mappers/**/*.xml
 

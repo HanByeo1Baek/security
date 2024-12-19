@@ -128,22 +128,6 @@ public class FeedService {
         for(FeedGetRes res : list){
             res.setPics(picHashMap.get(res.getFeedId()));
         }
-//        int lastIdx = 0;
-//        for(FeedGetRes item : list) {
-//
-//            List<String> pics = new ArrayList<>(2);
-//            for(int i = lastIdx; i < feedPicList.size(); i++){
-//                FeedPicSel feedPicSel = feedPicList.get(i);
-//                if(item.getFeedId() == feedPicSel.getFeedId()) {
-//                    pics.add(feedPicSel.getPic());
-//                }
-//                else{
-//                    item.setPics(pics);
-//                    lastIdx = i;
-//                    break;
-//                }
-//            }
-//        }
 
         //피드와 관련된 댓글 리스트
         List<FeedCommentDto> feedCommentList = feedCommentMapper.selFeedCommentListByFeedIdsLimit4(feedIds);

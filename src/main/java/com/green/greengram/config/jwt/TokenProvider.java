@@ -66,7 +66,7 @@ public class TokenProvider {
             throw new RuntimeException(e);
         }
     }
-    
+
     //Spring Security에서 인증 처리를 해주어야 한다. 그때 Authentication 객체가 필요.
     public Authentication getAuthentication(String token) {
         UserDetails userDetails = getUserDetailsFromToken(token);

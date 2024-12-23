@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Component
 public class CookieUtils {
-    //Req header 에서 내가 원하는 쿠키를 찾는 메소드
+    //Req header에서 내가 원하는 쿠키를 찾는 메소드
     public Cookie getCookie(HttpServletRequest req, String name) {
         Cookie[] cookies = req.getCookies();
         if (cookies != null && cookies.length > 0) {
@@ -22,7 +22,7 @@ public class CookieUtils {
         return null;
     }
 
-    //Res header 에 내가 원하는 쿠키를 담는 메소드
+    //Res header에 내가 원하는 쿠키를 담는 메소드
     public void setCookie(HttpServletResponse res, String name, String value, int maxAge) {
         Cookie cookie = new Cookie(name, value);
         cookie.setPath("/api/user/access-token"); //이 요청으로 들어올 때만 쿠키값이 넘어올 수 있도록

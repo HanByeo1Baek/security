@@ -2,9 +2,10 @@ package com.green.greengram.common.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 @Getter
-@Builder
+@SuperBuilder
 public class ResultResponse<T> {
     @Schema(title = "결과 메시지")
     private String resultMessage;

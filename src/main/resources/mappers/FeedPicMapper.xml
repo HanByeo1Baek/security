@@ -20,18 +20,20 @@
         </foreach>
     </insert>
 
-    <select id="selFeedPic">
+    <select id="selFeedPicList">
         SELECT pic
           FROM feed_pic
          WHERE feed_id = #{feedId}
     </select>
+
     <select id="selFeedPicListByFeedIds">
-        select feed_id AS feedId, pic
-        from feed_pic
-        where feed_id in
+        SELECT feed_id AS feedId
+             , pic
+          FROM feed_pic
+         WHERE feed_id IN
         <foreach collection="feedIds" item="item" open="(" separator="," close=")">
             #{item}
         </foreach>
-        order by feed_id desc
+        ORDER BY feed_id DESC
     </select>
 </mapper>

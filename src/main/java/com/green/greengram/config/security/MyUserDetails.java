@@ -1,6 +1,5 @@
 package com.green.greengram.config.security;
 
-
 import com.green.greengram.config.jwt.JwtUser;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,11 +11,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-@Getter
 @Setter
+@Getter
 public class MyUserDetails implements UserDetails {
-    private JwtUser jwtUser;
 
+    private JwtUser jwtUser;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -29,11 +28,11 @@ public class MyUserDetails implements UserDetails {
 
     @Override
     public String getPassword() {
-        return "";
+        return null;
     }
 
     @Override
     public String getUsername() {
-        return "";
+        return null;
     }
 }

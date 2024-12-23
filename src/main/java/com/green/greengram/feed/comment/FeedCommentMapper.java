@@ -12,6 +12,7 @@ import java.util.List;
 public interface FeedCommentMapper {
     void insFeedComment(FeedCommentPostReq p);
     List<FeedCommentDto> selFeedCommentList(FeedCommentGetReq p);
-    int delFeedComment(FeedCommentDelReq p);
     List<FeedCommentDto> selFeedCommentListByFeedIdsLimit4(List<Long> feedIds);
+    List<FeedCommentDto> selFeedCommentListByFeedIdsLimit4Ver2(List<Long> feedIds);
+    int delFeedComment(FeedCommentDelReq p);
 }

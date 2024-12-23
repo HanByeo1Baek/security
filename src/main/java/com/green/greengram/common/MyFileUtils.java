@@ -19,19 +19,22 @@ public class MyFileUtils {
     }
 
     /*
-    @Value("${file.directory}")은
-    yaml 파일에 있는 file.directory 속성에 저장된 값을 생성자 호출할 때 값을 넣어준다.
-     */
+        @Value("${file.directory}")은
+        yaml 파일에 있는 file.directory 속성에 저장된 값을 생성자 호출할 때 값을 넣어준다.
+         */
     public MyFileUtils(@Value("${file.directory}") String uploadPath) {
         log.info("MyFileUtils - 생성자: {}", uploadPath);
         this.uploadPath = uploadPath;
     }
 
     // path = "ddd/aaa"
+    // D:/2024-02/download/greengram_ver1/
+    // feed/2
+    // D:/2024-02/download/greengram_ver1/feed/2
     // D:/2024-02/download/greengram_ver1/ddd/aaa
     //디렉토리 생성
-    public String makeFolders(String path) {
-        File file = new File(uploadPath,  path);
+    public void makeFolders(String path) {
+        File file = new File(uploadPath, path);
         // static 아님  >>  객체화하고 주소값.(file.)으로 호출했기 때문에
         // 리턴타입은 boolean  >>  if()안에서 호출했기 때문에
         // 파라미터는 없음   >>  호출 때 인자를 보내지 않았기 때문에
@@ -39,7 +42,6 @@ public class MyFileUtils {
         if(!file.exists()) {
             file.mkdirs();
         }
-        return file.getAbsolutePath();
     }
 
     //파일명에서 확장자 추출
@@ -70,24 +72,24 @@ public class MyFileUtils {
     }
 
     //폴더 삭제, e.g. "user/1"
-    public void deleteFolder(String path, boolean deleteRootFolder){
+    public void deleteFolder(String path, boolean deleteRootFolder) {
         File folder = new File(path);
-        if(folder.exists() && folder.isDirectory()){ // 폴더가 존재하면서 디렉토리인가?
-            File[] includeFiles = folder.listFiles();
+        if(folder.exists() && folder.isDirectory()) { //폴더가 존재하면서 디렉토리인가?
+            File[] includedFiles = folder.listFiles();
 
-            for(File f : includeFiles){
-                if(f.isDirectory()){
+            for(File f : includedFiles) {
+                if(f.isDirectory()) {
                     deleteFolder(f.getAbsolutePath(), true);
-                }else{
+                } else {
                     f.delete();
                 }
             }
-            if(deleteRootFolder){
+
+            if(deleteRootFolder) {
                 folder.delete();
             }
         }
+
     }
 
 }
-
-

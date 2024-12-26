@@ -26,8 +26,6 @@
          WHERE feed_id = #{feedId}
     </select>
 
-
-
     <select id="selFeedPicListByFeedIds">
         SELECT feed_id AS feedId
              , pic

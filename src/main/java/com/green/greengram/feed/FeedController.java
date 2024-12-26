@@ -24,7 +24,7 @@ public class FeedController {
     @PostMapping
     @Operation(summary = "피드 등록", description = "필수: 사진리스트 || 옵션: 위치, 내용")
     public ResultResponse<FeedPostRes> postFeed(@RequestPart List<MultipartFile> pics
-                                              , @RequestPart FeedPostReq p) {
+                                              , @Valid @RequestPart FeedPostReq p) {
         FeedPostRes res = service.postFeed(pics, p);
         return ResultResponse.<FeedPostRes>builder()
                 .resultMessage("피드 등록 완료")
@@ -34,9 +34,20 @@ public class FeedController {
 
     @GetMapping
     @Operation(summary = "Feed 리스트 - N+1", description = "signed_user_id는 로그인한 사용자의 pk")
-    public ResultResponse<List<FeedGetRes>> getFeedList(@Valid @ParameterObject @ModelAttribute FeedGetReq p) {
+    public ResultResponse<List<FeedGetRes>> getFeedList(@ParameterObject @ModelAttribute FeedGetReq p) {
         log.info("FeedController > getFeedList > p: {}", p);
         List<FeedGetRes> list = service.getFeedList(p);
+        return ResultResponse.<List<FeedGetRes>>builder()
+                .resultMessage(String.format("%d rows", list.size()))
+                .resultData(list)
+                .build();
+    }
+
+    @GetMapping("ver2")
+    @Operation(summary = "Feed 리스트 - No N+1", description = "signed_user_id는 로그인한 사용자의 pk")
+    public ResultResponse<List<FeedGetRes>> getFeedListVer2(@Valid @ParameterObject @ModelAttribute FeedGetReq p) {
+        log.info("FeedController > getFeedList > p: {}", p);
+        List<FeedGetRes> list = service.getFeedList2(p);
         return ResultResponse.<List<FeedGetRes>>builder()
                 .resultMessage(String.format("%d rows", list.size()))
                 .resultData(list)

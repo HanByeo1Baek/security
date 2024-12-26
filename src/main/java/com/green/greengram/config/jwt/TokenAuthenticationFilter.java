@@ -30,15 +30,11 @@ public class TokenAuthenticationFilter extends OncePerRequestFilter {
         log.info("token: {}", token);
 
         if(token != null) {
-            boolean result = false;
             try {
-                result = tokenProvider.validToken(token);
-            }catch (Exception e) {
-                request.setAttribute("exception", e);
-            }
-            if(result){
                 Authentication auth = tokenProvider.getAuthentication(token);
                 SecurityContextHolder.getContext().setAuthentication(auth);
+            } catch (Exception e) {
+                request.setAttribute("exception", e);
             }
         }
         filterChain.doFilter(request, response);

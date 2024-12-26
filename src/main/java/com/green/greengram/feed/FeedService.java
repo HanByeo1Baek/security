@@ -1,16 +1,20 @@
 package com.green.greengram.feed;
 
 import com.green.greengram.common.MyFileUtils;
+import com.green.greengram.common.exception.CustomException;
+import com.green.greengram.common.exception.FeedErrorCode;
 import com.green.greengram.config.security.AuthenticationFacade;
 import com.green.greengram.feed.comment.FeedCommentMapper;
 import com.green.greengram.feed.comment.model.FeedCommentDto;
 import com.green.greengram.feed.comment.model.FeedCommentGetReq;
 import com.green.greengram.feed.comment.model.FeedCommentGetRes;
 import com.green.greengram.feed.model.*;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
@@ -23,6 +27,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 @RequiredArgsConstructor
+@Validated
 public class FeedService {
     private final FeedMapper feedMapper;
     private final FeedPicMapper feedPicMapper;
@@ -31,9 +36,14 @@ public class FeedService {
     private final AuthenticationFacade authenticationFacade;
 
     @Transactional
+    //자동 커밋 종료
     public FeedPostRes postFeed(List<MultipartFile> pics, FeedPostReq p) {
+
         p.setWriterUserId(authenticationFacade.getSignedUserId());
         int result = feedMapper.insFeed(p);
+        if(result == 0){
+            throw new CustomException(FeedErrorCode.FAIL_TO_REG);
+        }
 
         // --------------- 파일 등록
         long feedId = p.getFeedId();
@@ -52,7 +62,10 @@ public class FeedService {
             try {
                 myFileUtils.transferTo(pic, filePath);
             } catch (IOException e) {
-                e.printStackTrace();
+                //폴더 삭제 처리
+                String delFolderPath = String.format("%s/%s", myFileUtils.getUploadPath(), middlePath);
+                myFileUtils.deleteFolder(delFolderPath, true);
+                throw new CustomException(FeedErrorCode.FAIL_TO_REG);
             }
         }
         FeedPicDto feedPicDto = new FeedPicDto();
@@ -65,6 +78,9 @@ public class FeedService {
                           .pics(picNameList)
                           .build();
     }
+
+    //에러가 터졌다 rollback
+    //에러가 안 터졌다 commit;
 
     public List<FeedGetRes> getFeedList(FeedGetReq p) {
         p.setSignedUserId(authenticationFacade.getSignedUserId());
@@ -91,9 +107,35 @@ public class FeedService {
         return list;
     }
 
+
+
     //select 2번
     public List<FeedGetRes> getFeedList2(FeedGetReq p) {
-        return null;
+        List<FeedGetRes> list = new ArrayList<>(p.getSize());
+
+        //SELECT (1) : feed + feed_pic
+        List<FeedAndPicDto> feedAndPicDtoList = feedMapper.selFeedWithPicList(p);
+        FeedGetRes beforeFeedGetRes = new FeedGetRes();
+        for(FeedAndPicDto feedAndPicDto : feedAndPicDtoList) {
+            if(beforeFeedGetRes.getFeedId() != feedAndPicDto.getFeedId()) {
+                beforeFeedGetRes = new FeedGetRes();
+                beforeFeedGetRes.setPics(new ArrayList<>(3));
+                list.add(beforeFeedGetRes);
+                beforeFeedGetRes.setFeedId(feedAndPicDto.getFeedId());
+                beforeFeedGetRes.setContents(feedAndPicDto.getContents());
+                beforeFeedGetRes.setLocation(feedAndPicDto.getLocation());
+                beforeFeedGetRes.setCreatedAt(feedAndPicDto.getCreatedAt());
+                beforeFeedGetRes.setWriterUserId(feedAndPicDto.getWriterUserId());
+                beforeFeedGetRes.setWriterNm(feedAndPicDto.getWriterNm());
+                beforeFeedGetRes.setWriterPic(feedAndPicDto.getWriterPic());
+                beforeFeedGetRes.setIsLike(feedAndPicDto.getIsLike());
+            }
+            beforeFeedGetRes.getPics().add(feedAndPicDto.getPic());
+        }
+
+        //SELECT (2) : feed_comment
+
+        return list;
     }
 
 
@@ -132,6 +174,7 @@ public class FeedService {
             List<String> pics = picHashMap.get(feedId);
             pics.add(item.getPic());
         }
+
 
         //피드와 관련된 댓글 리스트
 

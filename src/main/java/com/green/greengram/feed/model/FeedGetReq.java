@@ -16,7 +16,7 @@ public class FeedGetReq extends Paging {
     @JsonIgnore
     private long signedUserId;
 
-    @Positive // 1이상 정수이어야 한다.
+    @Positive //1이상 정수이어야 한다.
     @Schema(title = "프로필 유저 PK", name="profile_user_id", example = "2", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
     private Long profileUserId;
 

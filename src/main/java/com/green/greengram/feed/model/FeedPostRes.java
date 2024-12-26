@@ -10,8 +10,9 @@ import java.util.List;
 @Builder
 @Schema(title = "피드 등록 응답")
 public class FeedPostRes {
-    @Schema(title="피드 PK")
+    @Schema(title = "피드 PK")
     private long feedId;
-    @Schema(title="피드 사진 리스트")
+    @Schema(title = "피드 사진 리스트")
     private List<String> pics;
 }
+    

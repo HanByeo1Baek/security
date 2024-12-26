@@ -16,7 +16,6 @@ import java.beans.ConstructorProperties;
 public class FeedCommentGetReq {
     private final static int FIRST_COMMENT_SIZE = 3;
 
-
     @Positive
     @Schema(title="피드 PK", description = "피드 PK", name="feed_id", example = "1", requiredMode = Schema.RequiredMode.REQUIRED)
     private long feedId;

@@ -75,13 +75,13 @@ public class TokenProvider {
                 : new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
     }
 
-    public JwtUser getJwtUserFromToken(String token){
+    public JwtUser getJwtUserFromToken(String token) {
         Claims claims = getClaims(token);
         String json = (String)claims.get("signedUser");
         JwtUser jwtUser = null;
         try {
             jwtUser = objectMapper.readValue(json, JwtUser.class);
-        }catch(JsonProcessingException e){
+        } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
         return jwtUser;

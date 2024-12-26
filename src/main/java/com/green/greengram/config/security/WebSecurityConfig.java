@@ -20,7 +20,6 @@ public class WebSecurityConfig {
     private final TokenAuthenticationFilter tokenAuthenticationFilter;
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
 
-
     //스프링 시큐리티 기능 비활성화 (스프링 시큐리티가 관여하지 않았으면 하는 부분)
 //    @Bean
 //    public WebSecurityCustomizer webSecurityCustomizer() {

@@ -13,7 +13,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.el.parser.Token;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -66,7 +65,7 @@ public class UserService {
 
     public UserSignInRes postSignIn(UserSignInReq p, HttpServletResponse response) {
         UserSignInRes res = mapper.selUserByUid(p.getUid());
-        if(res == null || !passwordEncoder.matches(p.getUpw(), res.getUpw())) {
+        if( res == null || !passwordEncoder.matches(p.getUpw(), res.getUpw())) {
             throw new CustomException(UserErrorCode.INCORRECT_ID_PW);
         }
 
@@ -80,7 +79,7 @@ public class UserService {
         jwtUser.getRoles().add("ROLE_USER");
         jwtUser.getRoles().add("ROLE_ADMIN");
 
-        String accessToken = tokenProvider.generateToken(jwtUser, Duration.ofSeconds(30));
+        String accessToken = tokenProvider.generateToken(jwtUser, Duration.ofSeconds(3600));
         String refreshToken = tokenProvider.generateToken(jwtUser, Duration.ofDays(15));
 
         //refreshToken은 쿠키에 담는다.
@@ -103,8 +102,7 @@ public class UserService {
         log.info("refreshToken: {}", refreshToken);
 
         JwtUser jwtUser = tokenProvider.getJwtUserFromToken(refreshToken);
-        String accessToken = tokenProvider.generateToken(jwtUser, Duration.ofMinutes(100));
-        return refreshToken;
+        return tokenProvider.generateToken(jwtUser, Duration.ofMinutes(100));
     }
 
     public String patchUserPic(UserPicPatchReq p) {

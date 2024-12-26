@@ -13,6 +13,7 @@ import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.List;
 
 @Slf4j
@@ -40,7 +41,7 @@ public class UserController {
     public ResultResponse<UserSignInRes> signIn(@Valid @RequestBody UserSignInReq p, HttpServletResponse response) {
         UserSignInRes res = service.postSignIn(p, response);
         return ResultResponse.<UserSignInRes>builder()
-                .resultMessage("로그인 성공!")
+                .resultMessage("로그인 성공")
                 .resultData(res)
                 .build();
     }
@@ -60,7 +61,6 @@ public class UserController {
     @Operation(summary = "Access Token 재발행")
     public ResultResponse<String> getAccessToken(HttpServletRequest req) {
         String accessToken = service.getAccessToken(req);
-
         return ResultResponse.<String>builder()
                 .resultMessage("Access Token 재발행")
                 .resultData(accessToken)
@@ -75,5 +75,10 @@ public class UserController {
                 .resultMessage("프로필 사진 수정 완료")
                 .resultData(pic)
                 .build();
+    }
+
+    @GetMapping("redirect")
+    public void redirect(HttpServletResponse response) throws IOException {
+        response.sendRedirect("/");
     }
 }
